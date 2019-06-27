@@ -1,0 +1,141 @@
+body{
+    background-color: #e2e2e2;
+}
+
+::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+::-webkit-scrollbar-track     {
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    /*background:#d2eafb;*/
+    background: linear-gradient(to right, #AEB6DB 0%, #73788D 50%, #A2AACE 100%);
+    border-radius:4px;
+}
+
+.navbar{
+     margin-bottom: 0px;
+    border-radius: 0px;
+}
+.navbar-default{
+    background-color:#0AA081 ;
+    border-color:#0AA081;
+    position: fixed;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+.navbar-date{
+    padding-top: 20px;
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: white;
+}
+#sidebar-wrapper{
+    background-color:white;
+}
+
+.far-menu-bar{
+    line-height: 48px;
+    color:white
+}
+
+.sidebar-nav li a{
+    color: #888888;
+}
+.sidebar-nav>.sidebar-brand a {
+    color: white;
+}
+.sidebar-nav li a:hover{
+    color: white;
+    background: #0AA081;
+}
+.sidebar-nav>.sidebar-brand{
+    height: 30px;
+}
+.active{
+    color: white;
+    background: #0AA081;
+}
+
+.sidebar-nav > li a>i{
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.row-head{
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    margin-left: -30px;
+   margin-top: -10px;
+    margin-right: -28px;
+}
+#sidebar-wrapper{
+    border: 1px solid white;
+    border-right-color: #0AA081;
+    top:50px;
+}
+
+.row-head .h4{
+    padding-left: 10px;
+}
+/*.page-content-wrapper{
+    height: 650px;
+    overflow: auto;
+}*/
+.content-left{
+    padding-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.content-center {
+    background-color: #0AA081;
+    color: white;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.panel-default{
+    color:#333;
+}
+.control-label{
+    font-weight: normal;
+    color: #333;
+}
+
+.sidebar-nav >li >a{
+    color: #333;
+}
+.panel-default-head{
+    margin-top: 55px;
+
+}
+.panel-body{
+    padding: 10px;
+}
+.btn{
+    border-radius:0px;
+   border: none;
+}
+.nav > li > a{
+    padding: 0px 5px;
+}
+.collapse{
+    visibility: visible;
+
+}
+.nav-list > li > a{
+    color: #333;
+}
+.fa-angle-right{
+    padding-left: 50%;
+}
+.fa-angle-down{
+    padding-left: 50%;
+}

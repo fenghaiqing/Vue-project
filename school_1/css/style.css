@@ -1,0 +1,166 @@
+::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    /*background:#d2eafb;*/
+    background: linear-gradient(to right, rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86));
+    border-radius:4px;
+}
+::-webkit-scrollbar:hover{
+    width:10px;
+    height:6px;
+}
+
+.nav-absloat{
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    right: 0px;
+    top: 30px;
+}
+.navbar-default{
+    background-color: unset;
+    color: white;
+    border: none;
+}
+.navbar-header{
+    padding-left: 10%;
+}
+.navbar-default .navbar-brand{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:微软雅黑;
+
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+    background-color: unset;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: unset;
+}
+.navbar-nav li.active{
+
+}
+.navbar-default .navbar-nav>.active > a,
+.navbar-default .navbar-nav>.active > a:hover,
+.navbar-default .navbar-nav li a:hover{
+    background-color: unset;
+    color: white;
+    border-bottom: 5px solid #e75e64;
+}
+.about{
+
+    font-family: 宋体;
+}
+.about h2{
+    color: #e75e64;
+    font-size: 34px;
+    font-weight: 400;
+}
+.about h4{
+    line-height: 30px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#teachers{
+    background-color: #009BBB;
+    color: white;
+    font-family: 宋体;
+}
+#teachers h2{
+    font-size: 34px;
+    font-weight: 400;
+}
+#teachers h4{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+#teachers .th h3{
+    color: #e75e64;
+    font-weight: bold;
+}
+#teachers .th{
+    font-size: 18px;
+    font-weight: 300;
+}
+#teachers .th img{
+    border: 10px solid #009BBB;
+}
+#teachers .th img:hover{
+    border: 10px solid #00799A;
+}
+ .title{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+ #zsjy h2{
+     font-size: 34px;
+     font-weight: 400;
+     color:#00799A ;
+ }
+
+ .tab-content .tab-pane{
+     text-align: left;
+     padding-top: 20px;
+ }
+.tab-content .tab-pane p span {
+    padding: 0px 8px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+
+}
+
+#xyfg h2{
+    font-size: 34px;
+    font-weight: 400;
+    color:#333333 ;
+}
+#xyfg .col-img{
+    margin-bottom: 20px;
+
+}
+#xyfg{
+    background-color: #e4e4e4;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    padding-left: 32%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #5a5a5a;
+    opacity: 1;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+footer ul li a:hover{
+    color: white;
+    background-color: #5e5e5e !important;
+
+}

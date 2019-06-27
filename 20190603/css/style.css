@@ -1,0 +1,205 @@
+body{
+    background: #eaeaea;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+.panding0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bgwhite{
+    background: white;
+}
+
+.head{
+
+    text-align: center;
+    padding: 10%;
+}
+
+.head .head-brand{
+    height: 100px;
+    width: 100px;
+    margin: auto 0;
+    display: inline-block;
+    border: 2px solid #9d9d9d;
+    border-radius: 50%;
+}
+.head .head-brand img{
+    display: inline-block;
+}
+
+.login-form .form-common{
+    position: relative;
+    padding-bottom: 1rem;
+}
+.login-form .form-common .iconfont{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+    color: #999;
+}
+.login-form .form-common input{
+    padding: 20px 40px 20px 40px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.login-form .des{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #2e6da4;
+}
+.login-form .des .kjdl{
+    float: left;
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+.login-form .des .wjmm{
+    float: right;
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 1.5rem;
+}
+.login-form .bt{
+    padding-bottom: 20px;
+
+}
+.login-form .bt .btn{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    height: 40px;
+}
+.login-form h4{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.dsf{
+    padding-top: 20px;
+}
+.dsf p{
+    line-height: 1rem;
+    padding:20px 0px 20px 0px;
+    font-size: 1.2rem;
+}
+.dsf .iconfont{
+    font-size: 5rem;
+}
+.c1afa29{
+    color: #1afa29;
+}
+.c1296db{
+    color: #1296db;
+}
+.cd81e06{
+    color: #d6661a;
+}
+/************************************
+*               首页样式             *
+**************************************/
+.search-form{
+    position: relative;
+    padding: 1rem 0 1rem 0;
+}
+.search-form input{
+    border-radius: 2rem;
+    width: 60%;
+    padding-left: 3rem;
+    margin: auto;
+}
+.search-form .iconfont{
+    position: absolute;
+    color: #999999;
+    left: 9.5rem;
+    top: 1.6rem;
+    font-size: 1.5rem;
+}
+.fd-menu{
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.fd-menu  .iconfont{
+    font-size: 4rem;
+}
+.fd-menu  a p{
+    color: #999999;
+}
+.fd-menu  a .zc{
+    color: #3DD87C
+}
+.fd-menu a:hover > .zc{
+    color:#31A85C ;
+}
+.fd-menu  a .xc{
+    color: #C7C7F9
+}
+.fd-menu  a:hover > .xc{
+    color: #8e8eb9
+}
+.fd-menu  a .hp{
+    color: #FF8C59
+}
+.fd-menu  a:hover > .hp{
+    color: #b95f53
+}
+.fd-menu  a .js{
+    color: #FD87B8
+}
+.fd-menu  a:hover > .js{
+    color: #b96280
+}
+.fd-menu  a .gd{
+    color: #3B79FF
+}
+.fd-menu  a:hover > .gd{
+    color: #3658b9
+}
+.jrtj{
+    background: #e1e1e1;
+    padding-bottom: 2rem;
+}
+.jrtj .title h4{
+    padding: 0.5rem 1rem 0.5rem 3.5rem;
+}
+.jrtj .tj-list .tj-item{
+    padding-bottom: 2rem;
+
+
+}
+
+.boot-nav{
+    height: 5rem;
+    background: white;
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+.boot-nav .nav-box  a{
+    color: #999999;
+    font-size: 1rem;
+}
+.boot-nav .nav-box a p{
+    line-height: 0.2rem;
+}
+.boot-nav .nav-box  a .iconfont{
+    font-size: 3rem;
+}
+.boot-nav .nav-box a.active{
+    color: #6993d8;
+}

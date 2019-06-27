@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>精彩动态</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dongtai.css">
+    <link rel="stylesheet" href="common/icon/iconfont.css">
+    <script src="common/jquery/jquery.js"></script>
+    <script src="common/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body >
+<div class="container profile">
+    <div class="row">
+        <div class="nav-head  clearfix">
+            <div class="col-xs-6 panding0">
+                <div class=" head">
+                    <img src="images/head200x200.jpg" class="img-responsive img-circle" alt="">
+                    <div class="userid">
+                        <span>ID:</span><spna class="name">12345</spna>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="code">
+                    <div class="code-img">
+                        <span class="iconfont">&#xe60d;</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row message">
+        <div class="post-group clearfix ">
+            <div class="col-xs-12 ">
+                <div class="item">
+                    <span class="iconfont">&#xe6ce;</span>
+                    <span class="title">
+                        收藏
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="post-group clearfix ">
+            <div class="col-xs-12 ">
+                <div class="item">
+                    <span class="iconfont">&#xe66f;</span>
+                    <span class="title">
+                        相册
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="post-group clearfix ">
+            <div class="col-xs-12 ">
+                <div class="item">
+                    <span class="iconfont">&#xe610;</span>
+                    <span class="title">
+                        设置
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row boot-nav">
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe60f;</span>
+                <p>首页</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe62a;</span>
+                <p>圈子</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe641;</span>
+                <p>消息</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" class="active">
+                <span class="iconfont" >&#xe603;</span>
+                <p>我的</p>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".nav-head .item").on('click',function(){
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+        });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" >
+    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="checkboxes/css/build.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+</head>
+<body>
+<div id="sd_index">
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><h1 >schedule</h1></a>
+        </div>
+        <div>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control search" >
+                </div>
+            </form>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="nav-navcolor"><span class="glyphicon glyphicon-user"></span> 登录</a></li>
+            <li><a href="#" class="nav-navcolor"><span class="glyphicon glyphicon-log-in"></span>注销</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3" id="sider" style="height: 500px; background-color: white">
+            <a class="new_list" href="/addList"><i class="fa fa-plus"></i>新建清单</a>
+            <ul class="list-group">
+                <li class="list-group-item " v-for="(item,i) in dataList" v-on:click="addClass(i)" v-bind:class="{item_active:i==current}">
+                        {{item.title}}
+                </li>
+              <!--  <li class="list-group-item" v-on:click="addClass(1)" v-bind:class="{item_active:1==current}">毕业设计</li>
+                <li class="list-group-item" v-on:click="addClass(2)" v-bind:class="{item_active:2==current}">软件开发</li>
+                <li class="list-group-item" v-on:click="addClass(3)" v-bind:class="{item_active:3==current}">数据库设计</li>
+-->
+            </ul>
+
+        </div>
+        <div class="col-lg-9">
+
+            <div class="panel panel-default">
+
+                <div class="panel-body">
+                    <div class="checkbox checkbox-success" style="position: relative;top: -25px;left: -15px">
+                        <input id="checkbox3" class="styled" type="checkbox">
+                        <label for="checkbox3">
+                        </label>
+                    </div>
+                    <div>
+                        面板内容
+                    </div>
+                </div>
+                <div class="panel-head">
+                    <a href="javaScript:void(0);" title='"'><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"> <i class="fa fa-sun-o" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"><i class="fa fa-retweet" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"> <i class="fa fa-truck-moving"></i></a>
+                    <a href="javaScript:void(0);"> <i class="fa fa-check-square-o" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></a>
+                    <a href="javaScript:void(0);"><i class="fa fa-calendar-times-o" aria-hidden="true"></i></a>
+
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+
+                <div class="panel-body">
+                    <div class="checkbox checkbox-success" style="position: relative;top: -25px;left: -15px">
+                        <input id="checkbox4" class="styled" type="checkbox">
+                        <label for="checkbox4">
+
+                        </label>
+                    </div>
+                    <div>awdfaswdada</div>
+                </div>
+                <div class="panel-head">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<ul class="list-group scorllre_ul">
+    <li class="list-group-item scorllre"><a data-toggle="tooltip" data-placement='bottom' href="/addSchedule" title="添加代办事项"><i class="fa fa-plus"></i></a></li>
+    <li class="list-group-item scorllre"><a data-toggle="tooltip" data-placement='bottom'  title="回到顶部"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></li>
+
+</ul>
+</div>
+</div>
+<script src="jquery/jquery.js" ></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="vue/Vue-2.5.16.js"></script>
+<script src="vue/vue-resource.js"></script>
+<script src="javascripts/index.js"></script>
+<script>
+    $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+    });
+</script>
+</body>
+</html>

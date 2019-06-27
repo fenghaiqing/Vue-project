@@ -1,0 +1,70 @@
+	a{
+		text-decoration: none;
+	}
+	.el-header,
+	.el-footer {
+		background-color: #B3C0D1;
+		color: #333;
+		text-align: center;
+		line-height: 60px;
+		padding: 0rem 0rem;
+	}
+
+	.el-main {
+		background-color: white;
+		color: #333;
+		text-align: center;
+		padding: 20px 40px;
+		height: calc(100vh - 60px);
+	}
+
+	body>.el-container {
+		margin-bottom: 40px;
+	}
+
+	.el-container:nth-child(5) .el-aside,
+	.el-container:nth-child(6) .el-aside {
+		line-height: 260px;
+	}
+
+	.el-container:nth-child(7) .el-aside {
+		line-height: 320px;
+	}
+
+	.el-menu-vertical-demo:not(.el-menu--collapse) {
+		width: 200px;
+		min-height: 400px;
+	}
+	.el-menu--horizontal{
+		padding-right: 60px;
+		
+	}
+	.el-menu--horizontal>.el-menu-item{
+		float: right;
+		
+	}
+	.seach-form{
+		text-align: left;
+	}
+	.el-dialog__body{
+		padding: 0px 20px;
+	}
+	::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    /*background:#d2eafb;*/
+    background: linear-gradient(to right, rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86));
+    border-radius:4px;
+}
+::-webkit-scrollbar:hover{
+    width:10px;
+    height:6px;
+}
+.pagination{
+	margin-top: 10px;
+}

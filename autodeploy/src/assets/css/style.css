@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #999999;
+}
+
+::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb{
+    /*background:#d2eafb;*/
+    background: linear-gradient(to right, rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86), rgba(180, 180, 168, 0.86));
+    border-radius:4px;
+}
+::-webkit-scrollbar:hover{
+    width:10px;
+    height:6px;
+}
+
+
+.menuitem .router-link-active{
+	text-decoration: none;
+	color: #2B81AF;
+}
+
+.head{
+	position: relative;
+	width: 100px;
+	padding-top: 10px;
+}
+.head .img{
+	width: 40px;
+	height: 40px;
+	
+}
+.head .img img{
+	border-radius: 50%;
+	width: auto;
+	height: 100%;
+}
+.head .name{
+	position: absolute;
+	left: 45px;
+	top: 0px;
+	font-size: 12px;
+	color: white;
+}
+.el-menu-item,.el-menu-item i{
+	color: white !important;
+}
+  .el-header {
+    background-color: #B3C0D1;
+    color: #333;
+    line-height: 60px;
+  }
+
+.grid-content{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border:2px solid #A6A9AD;
+	border-radius: 5px;
+	text-align: center;
+	background: transparent;
+}
+.grid-content .text {
+	line-height: 30px;
+	color: #999999;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.grid-content .update{
+	position: absolute;
+	background:rgb(75,75,75,0.5);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.grid-content .update .el-button{
+	position: absolute;
+	padding: 5px 10px;
+}
+.grid-content .update .el-button--warning{
+	top: 40%;
+	left: 17%;
+}
+.grid-content .update .el-button--danger{
+	top: 40%;
+	left: 37%;
+}
+.grid-content .update .el-button--primary{
+	top: 40%;
+	left: 62%;
+}
+.grid-content:hover > .update{
+	left: 0;
+	top: 0;
+	display: block;
+}
+.grid-content .add{
+	font-size: 60px;
+	margin-top: 30%;
+	color:#A6A9AD ;
+	cursor: pointer;
+}
+.grid-content.new:hover{
+	border-color: #2B81AF;
+}
+.grid-content.new:hover > .add{
+	color: #2B81AF;
+}
+.grid-content.new .delete, .grid-content.new .check{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	color: #606266;
+	display: none;
+	border-radius: 30%;
+	font-size: 30px;
+	cursor: pointer;
+}
+ .grid-content.new .check{
+	 display: block;
+	 top: -5px;
+	 left: 0px;
+ }
+
+.grid-content.new:hover .delete{
+	display: block;
+	top: -5px;
+	right: 0px;
+}
+.el-col {
+    margin-bottom: 20px;
+ }
+.green{
+	color: #008800;
+}
+.def{
+	color: #606266;
+}
+.barand{
+	
+	float: left;
+	padding-top: 5px;
+	position: relative;
+	
+	text-align: left;
+}
+.barand .img-box{
+	height: 50px;
+	width: 100px;
+}
+.barand .img-box img{
+	height: 100%;
+	width: auto;
+}
+.barand .name{
+	position: absolute;
+	right: -20px;
+	color: white;
+	top: 0px;
+	font-size: 18px;
+	
+	font-weight: bold;
+}
+.el-header{
+	background: #009688;
+}
+.el-menu{
+	background:#222D32 ;
+	border-right:none
+}
+.el-menu-item:focus, .el-menu-item:hover{
+	border-left: 3px solid #009688;
+	background: #0D1214;
+	
+}
+.menuitem .router-link-active .el-menu-item{
+	border-left: 3px solid #009688 !important;
+	background: #0D1214 !important;
+}
+.el-menu-item, .el-submenu__title{
+	height: 40px;
+	line-height: 40px;
+}
+.login{
+	background: #CCCCCC;
+	width: 100%;
+	height: calc(100vh);
+}
+ .login-form{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 20%;
+	background: white;
+	text-align: center;
+	left: 38%;
+	padding: 20px 20px;
+	
+}
+.line{
+	background-color:#CCCCCC; height:1px;
+	margin-bottom: 20px;
+}
+.input-group{
+	text-align: left;
+	padding-bottom: 20px;
+}
+.input-group label{
+	line-height: 30px;
+}
+.login-footer .el-button{
+	width: 80%;
+	background: #009688;
+	border-color: #009688;
+}
+.input-group input:focus{
+    border-style:solid;
+    border-color: #009688;
+	box-shadow: 0 0 2px #009688;
+}
+.login h4{
+	font-size: 20px;
+}
+.login .bg{
+	
+	width: 100%;
+	height:300px ;
+	background:#009688 ;
+}
+/* .pc-icon{
+	height: 60px;
+	width: 60px;
+}
+.pc-icon img{
+	width: 100%;
+	height: auto;
+	
+} */
+.bs-tb{
+	  /*设置相邻单元格的边框间的距离*/
+                border-spacing: 0;
+                 /*表格设置合并边框模型*/
+                 border-collapse: collapse;
+                 text-align: center;
+				  width: 100%;
+}
+ /*关键设置 tbody出现滚动条*/
+ .bs-tb tbody {
+	 display: block;
+	 height: 80px;
+	 overflow-y: hidden;
+	 width: 100%;
+ }
+ 
+/* .bs-tb thead,
+ tbody tr {
+	 display: table;
+	 width: 100%;
+	 table-layout: fixed;
+ } */
+  .bs-tb tbody tr td{
+ 	padding-right: 12px;
+ }
+ /*关键设置：滚动条默认宽度是16px 将thead的宽度减16px*/
+ .bs-tb thead {
+	 width: calc( 100% - 1em)
+ }
+ .bs-tb thead th {
+	background: #ccc;
+ }
+ 

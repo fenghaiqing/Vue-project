@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>母婴商城</title>
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+   <!-- <link href="static/icon/iconfont.css" rel="stylesheet">-->
+
+</head>
+<body>
+<nav class="navbar navbar-default mall-nav" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><i class="iconfont" style="font-size: 14px">&#xe6cb;</i>首页</a>
+        </div>
+        <div class="pull-right mgrt50">
+            <ul class="nav navbar-nav">
+                <li><a href="login.html" class="login-btn">登录</a></li>
+                <li><a href="gwc.html">购物车<span class="login-btn">5</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="sy-menu">
+    <div class="container">
+        <div class="row search-row">
+            <div class="col-lg-6 ">
+                <img src="static/images/logo.png">
+            </div>
+            <div class="col-lg-6">
+                <div class="search">
+                    <input type="text" id="key" placeholder="请输入需要的商品"><a onclick="initsearch();">搜索</a>
+                </div>
+            </div>
+        </div>
+        <div class="row row-navbar">
+            <div class="container-fluid">
+                <div class="pull-left ">
+                    <ul class="nav navbar-nav">
+                        <li class="sy-active"><a href="sysp.html" >所有商品</a></li>
+                        <li><a href="jrtg.html">今日团购</a></li>
+                        <li><a href="myzx.html">母婴资讯</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container main-good">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="men-fl" id="accordion">
+                <ul class="list-gp">
+                    <li class="list-gp-item fist">所有分类</li>
+                    <li class="list-gp-item">
+                        <a class="a-item" href="#collapseOne" data-toggle="collapse" data-parent="#accordion"><span class="iconfont" >&#xe6d2;</span><span class="iconfont tg" >&#xe601;</span>奶粉辅食</a>
+                        <ul id="collapseOne" class="panel-collapse collapse ">
+                            <li><a href="javaScript:void(0);">进口奶粉</a></li>
+                            <li><a href="javaScript:void(0);">宝宝辅食</a></li>
+                            <li><a href="javaScript:void(0);">营养品</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-gp-item"><a class="a-item" href="#collapset" data-toggle="collapse" data-parent="#accordion"><span class="iconfont tg" >&#xe6d2;</span><span class="iconfont " >&#xe601;</span>儿童用品</a>
+                         <ul id="collapset" class="panel-collapse collapse in">
+                            <li><a href="javaScript:void(0);">纸尿裤</a></li>
+                            <li><a href="javaScript:void(0);">婴儿湿巾</a></li>
+                            <li><a href="javaScript:void(0);">婴儿车</a></li>
+                            <li><a href="javaScript:void(0);">婴儿床</a></li>
+                            <li><a href="javaScript:void(0);">儿童安全座椅</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-gp-item"><a class="a-item" href="#collapses" data-toggle="collapse" data-parent="#accordion"><span class="iconfont tg" >&#xe6d2;</span><span class="iconfont " >&#xe601;</span>儿童早教</a>
+                        <ul id="collapses" class="panel-collapse collapse in">
+                            <li><a href="javaScript:void(0);">儿童玩具</a></li>
+                            <li><a href="javaScript:void(0);">早教书籍</a></li>
+                            <li><a href="javaScript:void(0);">孕产育儿书</a></li>
+
+                        </ul>
+                    </li>
+                    <li  class="list-gp-item"><a class="a-item" href="#collapsef" data-toggle="collapse" data-parent="#accordion"><span class="iconfont tg" >&#xe6d2;</span><span class="iconfont " >&#xe601;</span>儿童服饰</a>
+                        <ul id="collapsef" class="panel-collapse collapse in">
+                            <li><a href="javaScript:void(0);">童装</a></li>
+                            <li><a href="javaScript:void(0);">童鞋</a></li>
+                            <li><a href="javaScript:void(0);">宝宝配饰</a></li>
+
+                        </ul>
+                    </li>
+                    <li  class="list-gp-item"><a class="a-item" href="#collapseh" data-toggle="collapse" data-parent="#accordion"><span class="iconfont tg" >&#xe6d2;</span><span class="iconfont " >&#xe601;</span>孕妈专区</a>
+                        <ul id="collapseh" class="panel-collapse collapse in">
+                            <li><a href="javaScript:void(0);">孕妇装</a></li>
+                            <li><a href="javaScript:void(0);">孕妇护肤</a></li>
+                            <li><a href="javaScript:void(0);">孕妇用品</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="px">
+                    <ul class="px-u">
+                        <li>销量<span class="iconfont now">&#xe605;</span><span class="iconfont">&#xe60e;</span></li>
+                        <li>价格<span class="iconfont">&#xe605;</span><span class="iconfont now">&#xe60e;</span></li>
+                        <li>新品<span class="iconfont">&#xe605;</span><span class="iconfont now">&#xe60e;</span></li>
+                        <li>收藏<span class="iconfont">&#xe605;</span><span class="iconfont now">&#xe60e;</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row " >
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                        <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 good-group">
+                    <div class="item">
+                        <div class="img">
+                            <a href="javascript:;"><img src="static/images/paging_img1.jpg" class="img-responsive"></a>
+                        </div>
+                        <div class="text">
+                            <div class="title">森系小清新四件套</div>
+                            <div class="price">
+                                <span class="pri">￥200</span>
+                                <span class="nub">1266付款</span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div >
+            <div class="row text-center" style="padding-top: 10%">
+                <ul class="pagination">
+                    <li><a href="#">上一页</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="static/jquery/jquery.min.3.2.1.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/jquery/jquery.section-scroll.js"></script>
+<script src="static/js/main.js"></script>
+<script>
+   $(function(){
+       $(".men-fl ul li.list-gp-item > .a-item").click(function () {
+
+           $(this).children(".iconfont").toggleClass('tg');
+       })
+       $(".px .px-u li").click(function () {
+           $(this).children(".iconfont").toggleClass('now');
+           $(this).children(".iconfont").css('color','#f48b22');
+           $(this).siblings().each(function (i,item) {
+               $(this).children('.iconfont').css('color','#e1e1e1');
+
+           })
+       })
+   })
+</script>
+</body>
+</html>

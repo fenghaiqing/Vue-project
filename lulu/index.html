@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lulu</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/section-scroll.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.section-scroll.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img style="width: 100%;height: 50px" src="images/IMG_1306_.jpg"></a>
+        </div>
+        <div class="pull-right">
+            <ul class="nav navbar-nav sections">
+                <li class="active"><a href="#section-home">Home</a></li>
+                <li><a href="#section-gallery">Gallery</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="scrollable-section"  id="section-home">
+    <div class="container">
+       <div class="row">
+           <div class="col-lg-4 col-sm-4">
+               <img src="images/20181011104151.jpg" style="height: 500px">
+           </div>
+           <div class="col-lg-8 col-sm-8 hom-text" >
+               <span>
+                   My name is Yijin Lu and I already came to Melbourne for three years, and I am a media student study in RMIT now. I really enjoyed my international student's life, the media study life improve me a lot, that make me creative and give me more imaginations, I am not very professional and not really good at design, but I believe in the future，I will become better.
+               </span>
+           </div>
+       </div>
+    </div>
+</section>
+<section class="scrollable-section"  id="section-gallery">
+    <div class="container">
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="col-lg-8 col-sm-8">
+                        <img src="images/IMG_1305.JPG" alt="First slide">
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="banner-text">This is a game’s home page and the game is called penguin escape, this
+                            is a team work. This is my first time to get touched with game design, I leaned a lot from this design.
+                            In the future,I well be better.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-lg-8 col-sm-8">
+                    <img src="images/20181015141956.jpg"  alt="Second slide">
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                    <div class="banner-text">
+                       This is a 3D model about weather report, this is a team work I worked with my classmate and made by Maya.
+					   I think build 3D scenes is very interesting.
+					   This scenes including the globe，thermo meter，podium and the calendar as well.
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-lg-8 col-sm-8">
+                        <img src="images/20181016132414.jpg" alt="Third slide">
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="banner-text">
+                           This is a animation called international student life and it’s described about a girl just arrived Melbourne for study,
+						   the homesick and the problem she faced, finally she became better and get suitable for her study life.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="scrollable-section"  id="section-contact">
+    <div class="container">
+        <h3>Contact Form</h3>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-lg-4 col-sm-4">
+                            <input class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <input class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <input class="form-control" placeholder="Telephone">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group" style="margin-top: 10px">
+                        <div class="col-lg-12 col-sm-12">
+                            <textarea placeholder="Message" style="width: 100%;height: 100px"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-top: 15px">
+                        <button class="btn btn-default sub-btn" type="button" onclick="doSubmit();">Submit</button>
+                    </div>
+                </div>
+            </form>
+        <div class="row" style="margin-top: 30px">
+            <ul class="products">
+                <li>
+                    <a href="#">
+                        <img src="images/20181011100929_phone.jpg" alt=""/>
+                    </a>
+                    <span>
+                        <a href="#">+61452386150</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/email_20181011100929.jpg" alt="" />
+                    </a>
+                    <span>
+                        <a href="#">s558213@student.mit.edu.au</a>
+                    </span>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/20181011100929_i.jpg" />
+                    </a>
+                    <span>
+                        <a href="#">ipanglulu</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <footer class="text-center">
+                <p><b>@CopyRight;</b> Lulu 2018</p>
+            </footer>
+        </div>
+    </div>
+</section>
+<div class="back-to-top">
+    <img src="images/up-2.png" title="Back to top" />
+</div>
+
+<div class="alert alert-success sub-slt">
+    <a href="#" class="close" data-dismiss="alert">
+        &times;
+    </a>
+    <strong>Submit successfully !</strong>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

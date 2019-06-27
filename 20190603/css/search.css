@@ -1,0 +1,82 @@
+
+.seach-menu{
+    background: white;
+}
+.seach-menu .nav-head{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.seach-menu .nav-head a{
+    color: #999999;
+}
+.seach-menu .nav-head .title{
+    padding-left: 2rem;
+    padding-right: 2rem ;
+    position: relative;
+}
+.nav-head .back{
+    top: 0.5rem;
+    left: 1rem;
+}
+.nav-head .active .title::after{
+        content: ' ';
+        padding-right: 3rem;
+    padding-left: 3rem;
+    height: 3px;
+    background: #eea236;
+    position: absolute;
+    bottom: -1.2rem;
+    left: 2rem;
+}
+
+.bgwhite{
+    background: white;
+}
+.margin1{
+    margin-top: 1rem;
+}
+#myTabContent{
+    margin-top: 0.5rem;
+
+}
+#myTabContent .margin1{
+    min-height: 555px;
+}
+.list-group .list-group-item{
+    text-align: center;
+    border: none;
+    background: #f1f1f1;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.mynav .item {
+    padding: 1rem 0rem 1rem 0rem;
+    text-align: center;
+}
+.mynav .item a{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #999999;
+    border-radius: 1rem;
+    color: #999999;
+    min-width: 7rem;
+    display: inline-block;
+    text-align: center;
+}
+.list-group .list-group-item.active{
+    background: white;
+}
+.list-group .list-group-item a{
+    color: #999999;
+}
+.list-group .list-group-item.active a,.list-group .list-group-item.active a:hover{
+    color: #ee8864;
+    background: white;
+    text-decoration: none;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>精彩动态</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dongtai.css">
+    <link rel="stylesheet" href="common/icon/iconfont.css">
+    <script src="common/jquery/jquery.js"></script>
+    <script src="common/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body >
+<div class="container">
+    <div class="row">
+        <div class="nav-head xx clearfix">
+            <div class="col-xs-12 text-center">
+                <a href="javaScript:void(0)" style="font-size: 2rem;color: #999999">消息</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="row message">
+        <div class="post-group clearfix bgwhite">
+            <div class="post-head">
+                <div class="col-xs-1 box" >
+                    <div class="usr-head">
+                        <img src="images/head.jpg" class="img-responsive img-circle" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9 paddin-right-0">
+                <div class="auth">
+                    <span class="username">倾听-小溪</span>
+                    <span class="month">
+                        棒棒的
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-2 paddin-right-0">
+                    <span class="date">昨天</span>
+            </div>
+        </div>
+        <div class="post-group clearfix bgwhite">
+            <div class="post-head">
+                <div class="col-xs-1 box" >
+                    <div class="usr-head">
+                        <img src="images/head.jpg" class="img-responsive img-circle" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9 paddin-right-0">
+                <div class="auth">
+                    <span class="username">倾听-小溪</span>
+                    <span class="month">
+                        棒棒的
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-2 paddin-right-0">
+                <span class="date">昨天</span>
+            </div>
+        </div>
+        <div class="post-group clearfix bgwhite">
+            <div class="post-head">
+                <div class="col-xs-1 box" >
+                    <div class="usr-head">
+                        <img src="images/head.jpg" class="img-responsive img-circle" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9 paddin-right-0">
+                <div class="auth">
+                    <span class="username">倾听-小溪</span>
+                    <span class="month">
+                        棒棒的
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-2 paddin-right-0">
+                <span class="date">昨天</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row boot-nav">
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe60f;</span>
+                <p>首页</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe62a;</span>
+                <p>圈子</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" class="active">
+                <span class="iconfont">&#xe641;</span>
+                <p>消息</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="">
+                <span class="iconfont" >&#xe603;</span>
+                <p>我的</p>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".nav-head .item").on('click',function(){
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+        });
+    })
+</script>
+</body>
+</html>

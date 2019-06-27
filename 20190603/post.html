@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>精彩动态</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dongtai.css">
+    <link rel="stylesheet" href="common/icon/iconfont.css">
+    <script src="common/jquery/jquery.js"></script>
+    <script src="common/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body >
+<div class="container">
+    <div class="row">
+        <div class="nav-head clearfix">
+            <div class="col-xs-4 item ">
+                <a href="javaScript:void(0)" >精彩动态</a>
+            </div>
+            <div class="col-xs-4 item">
+                <a href="javaScript:void(0)">我的关注</a>
+            </div>
+            <div class="col-xs-4 item active">
+                <a href="javaScript:void(0)">发帖</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="top-nav">
+            <div class="col-xs-4 panding0"><a href=""><span class="iconfont">&#xe624;</span></a></div>
+            <div class="col-xs-4 panding0"><a href=""><span class="text">上传照片</span></a></div>
+            <div class="col-xs-4 panding0"><a href="" class="success"><span class="text">完成</span></a></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="camera clearfix">
+            <div class="camera-box">
+                <span class="iconfont">&#xe60c;</span>
+            </div>
+            <a href="" class="ps">拍摄照片</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="picture-content clearfix">
+            <div class="title">或者从你的图库里选择一张</div>
+            <div class="picture-group">
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-xs-3 padding05rem">
+                    <img src="images/tj_2.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row boot-nav">
+        <div class="col-xs-3 nav-box">
+            <a href="" >
+                <span class="iconfont">&#xe60f;</span>
+                <p>首页</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="" class="active">
+                <span class="iconfont">&#xe62a;</span>
+                <p>圈子</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="">
+                <span class="iconfont">&#xe641;</span>
+                <p>消息</p>
+            </a>
+        </div>
+        <div class="col-xs-3 nav-box">
+            <a href="">
+                <span class="iconfont" >&#xe603;</span>
+                <p>我的</p>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".nav-head .item").on('click',function(){
+            $(this).siblings().removeClass('active');
+            $(this).addClass('active');
+        });
+    })
+</script>
+</body>
+</html>

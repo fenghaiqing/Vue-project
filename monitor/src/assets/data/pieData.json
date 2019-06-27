@@ -1,0 +1,8 @@
+{
+	"cdData":[{"value":5,"name":"迟到"},{"value":66,"name":"其他"}],
+	"wdData":[{"value":20,"name":"未到"},{"value":51,"name":"其他"}],
+	"wcData":[{"value":36,"name":"迟到"},{"value":35,"name":"其他"}],
+	"fqData":[{"value":15,"name":"翻墙"},{"value":64,"name":"其他"}],
+	"dqData":[{"value":25,"name":"打球"},{"value":54,"name":"其他"}],
+	"wmData":[{"value":26,"name":"外卖"},{"value":53,"name":"其他"}]
+}

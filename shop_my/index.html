@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>母婴商城</title>
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/icon/iconfont.css" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-default mall-nav" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><i class="iconfont" style="font-size: 14px">&#xe6cb;</i>首页</a>
+        </div>
+        <div class="pull-right mgrt50">
+            <ul class="nav navbar-nav">
+                <li><a href="login.html" class="login-btn">登录</a></li>
+                <li><a href="gwc.html">购物车<span class="login-btn">5</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row search-row">
+        <div class="col-lg-6 ">
+            <img src="static/images/logo.png">
+        </div>
+        <div class="col-lg-6">
+            <div class="search">
+                <input type="text" id="key" placeholder="请输入需要的商品"><a onclick="initsearch();">搜索</a>
+            </div>
+        </div>
+    </div>
+    <div class="row row-navbar">
+        <div class="container-fluid">
+            <div class="pull-left ">
+                <ul class="nav navbar-nav">
+                    <li class="all-menu"><a href="#" class="dropdown-toggle active" data-toggle="dropdown">全部分类</a>
+                        <ul class="dropdown-menu" id="menu-list" style="display: block">
+                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown">奶粉辅食</a>
+                                <ul class="dropdown-menu cld">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>奶粉</td>
+                                            <td>辅食</td>
+                                            <td>营养品</td>
+                                        </tr>
+                                        <tr>
+                                            <td>奶粉</td>
+                                            <td>辅食</td>
+                                            <td>营养品</td>
+                                        </tr>
+                                        <tr>
+                                            <td>奶粉</td>
+                                            <td>辅食</td>
+                                            <td>营养品</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown">纸尿裤</a>
+                                <ul class="dropdown-menu cld">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>纸尿裤</td>
+                                            <td>婴儿湿巾</td>
+                                            <td>面巾纸</td>
+                                        </tr>
+                                        <tr>
+                                            <td>奶粉</td>
+                                            <td>辅食</td>
+                                            <td>营养品</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown">洗护用品</a>
+                                <ul class="dropdown-menu cld">
+                                    <table class="table"></table>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown">儿童玩具</a>
+                                <ul class="dropdown-menu cld">
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>婴儿玩具</td>
+                                            <td>儿童玩具</td>
+                                            <td>积木玩具</td>
+                                        </tr>
+                                        <tr>
+                                            <td>奶粉</td>
+                                            <td>辅食</td>
+                                            <td>营养品</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </li>
+                            <li><a href="#">儿童座椅</a></li>
+                            <li><a href="#">童鞋</a></li>
+                            <li><a href="#">孕妈专区</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sysp.html">所有商品</a></li>
+                    <li><a href="jrtg.html">今日团购</a></li>
+                    <li><a href="myzx.html">母婴资讯</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container banner-ctn">
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="static/images/banner1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="static/images/banner1.jpg" alt="Second slide">
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="jr-bq clearfix">
+        <div class="col-sm-4 col-md-3 bt">
+            <img src="static/images/s_img1.jpg" class="img-responsive" alt="">
+        </div>
+        <div class="col-sm-8 colmd-9 nt">
+            <div class="row ls">
+                <div class=" col-sm-3">
+                    <div class="gd-im">
+                        <div class="img-box">
+                            <img src="static/images/s_img2.jpg" alt="">
+                            <div class="mc">
+
+                            </div>
+                        </div>
+
+                        <h4>宝宝五彩袜棉质舒服</h4>
+                        <div>
+                            <span class="crr">￥ 49.00</span>
+                            <span class="dis-crr"><del>￥ 99.00</del></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="gd-im">
+                        <div class="img-box">
+                            <img src="static/images/s_img2.jpg" alt="">
+                            <div class="mc">
+
+                            </div>
+                        </div>
+
+                        <h4>宝宝五彩袜棉质舒服</h4>
+                        <div>
+                            <span class="crr">￥ 49.00</span>
+                            <span class="dis-crr"><del>￥ 99.00</del></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="gd-im">
+                        <div class="img-box">
+                            <img src="static/images/s_img2.jpg" alt="">
+                            <div class="mc">
+
+                            </div>
+                        </div>
+
+                        <h4>宝宝五彩袜棉质舒服</h4>
+                        <div>
+                            <span class="crr">￥ 49.00</span>
+                            <span class="dis-crr"><del>￥ 99.00</del></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="gd-im">
+                        <div class="img-box">
+                            <img src="static/images/s_img2.jpg" alt="">
+                            <div class="mc">
+
+                            </div>
+                        </div>
+
+                        <h4>宝宝五彩袜棉质舒服</h4>
+                        <div>
+                            <span class="crr">￥ 49.00</span>
+                            <span class="dis-crr"><del>￥ 99.00</del></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="rxtj">
+        <div class="col-sm-4">
+            <h3 >热销推荐</h3>
+            <div class="hot1">
+                <div class="im">
+                    <img src="static/images/hot1.png" alt="">
+                </div>
+                <div class="bg"></div>
+            </div>
+            <div class="hot2">
+                <img src="static/images/hot2.png" alt="">
+            </div>
+        </div>
+        <div class="col-sm-4 hot-col-2">
+            <div class="col-sm-12 pad-20">
+                <img src="static/images/hot5.jpg" alt="">
+            </div>
+            <div class="col-sm-6 pad-20">
+                <img src="static/images/hot6.jpg" alt="">
+            </div>
+            <div class="col-sm-6 pad-20">
+                <img src="static/images/hot7.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="col-sm-4 hot-col-3">
+            <div class="col-sm-12 pad-20">
+                <img src="static/images/hot8.jpg" class="img-responsive"  alt="">
+            </div>
+            <div class="col-sm-12 pad-20">
+                <img src="static/images/hot9.jpg"  class="img-responsive" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="flow1">
+        <div class="row ">
+            <div class="bx clearfix">
+                <div class="col-sm-2">
+                    <div class="f1-l">
+                        <h3>1F</h3>
+                        <h3><span class="iconfont">&#xe600;</span></h3>
+                        <h4>宝宝服饰</h4>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div>
+                        <div class="col-sm-12" style="overflow: hidden">
+                            <img src="static/images/img12.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class=" f-ls">
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img7.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img8.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img9.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img10.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="flow2">
+        <div class="row ">
+            <div class="bx clearfix">
+                <div class="col-sm-2">
+                    <div class="f1-l">
+                        <h3>2F</h3>
+                        <h3><span class="iconfont">&#xe600;</span></h3>
+                        <h4>奶粉辅食</h4>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div>
+                        <div class="col-sm-12" style="overflow: hidden">
+                            <img src="static/images/img12.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class=" f-ls">
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img7.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img8.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img9.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img10.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="flow3">
+        <div class="row ">
+            <div class="bx clearfix">
+                <div class="col-sm-2">
+                    <div class="f1-l">
+                        <h3>3F</h3>
+                        <h3><span class="iconfont">&#xe600;</span></h3>
+                        <h4>宝宝用品</h4>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div>
+                        <div class="col-sm-12" style="overflow: hidden">
+                            <img src="static/images/img12.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                    <div class=" f-ls">
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img7.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img8.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img9.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="static/images/s_img10.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class=" text-center" style="margin-top: 30px">
+    <h3>更多推荐</h3>
+</div>
+<div class="container item-ctn clearfix" id="item-ctn">
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝夏季拖鞋多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more2.jpg"></a>
+            <p>时尚宝宝连体外套纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more3.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more3.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more2.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more3.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more2.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more2.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more3.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3"><a><img src="static/images/more3.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more2.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more1.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more5.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+        <div class="col-lg-3"><a><img src="static/images/more4.jpg"></a>
+            <p>时尚宝宝小黄鸭T恤纯棉耐脏多色可选0-2岁宝宝</p><span>￥100.00</span></div>
+    </div>
+</div>
+<div class="container foot-ctn">
+    <div class="row">
+        <div class="col-lg-4">
+            <div><a><i class="iconfont">&#xe602;</i> 7天无理由退换货</a></div>
+        </div>
+        <div class="col-lg-4">
+            <div><a><i class="iconfont">&#xe620;</i> 满99全场包邮</a></div>
+        </div>
+        <div class="col-lg-4">
+            <div><a><i class="fa fa-diamond" aria-hidden="true"></i><i class="iconfont">&#xe62b;</i> 100%品质保证</a></div>
+        </div>
+    </div>
+    <div style='height:1px;background-color:#8c8c8c;line-height:1px;clear:both;display:block;overflow:hidden'></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="breadcrumb">
+                <li>关于我们</li>
+                <li>帮助中心</li>
+                <li>售后服务</li>
+                <li>母婴资讯</li>
+                <li>关于货源</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script src="static/jquery/jquery.min.3.2.1.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/jquery/jquery.section-scroll.js"></script>
+<script src="static/js/main.js"></script>
+<script>
+    function initsearch() {
+        var key = $('#key').val();
+        $.ajax({
+            type: "POST",//请求方式
+            url: "/shop_my/static/json/list.json",//地址，就是json文件的请求路径
+            dataType: "json",//数据类型可以为 text xml json  script  jsonp
+            success: function (result) {//返回的参数就是 action里面所有的有get和set方法的参数
+                var items = [];
+                $.each(result, function (i, item) {
+                    if (item.desc.indexOf(key) != -1) {
+                        items.push(item)
+                    }
+                });
+                $("#item-ctn").html('');
+                var $row = '';
+                var $col = '';
+                $.each(items, function (i, item) {
+                    $col += '<div class="col-lg-3"><a><img src="' + item.img + '"></a>' +
+                        '<p>' + item.desc + '</p>' +
+                        '<span>' + item.price + '</span></div>';
+                    if ((i + 1) % 5 == 0 || (i + 1) == items.length) {
+                        $row += '<div class="row">' + $col + '</div>';
+                        $col = '';
+                    }
+                });
+                $("#item-ctn").html($row);
+            }
+        })
+    }
+</script>
+</body>
+</html>

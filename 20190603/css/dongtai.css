@@ -1,0 +1,219 @@
+
+.nav-head{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.nav-head .item a{
+    font-size: 1.5rem;
+    color: #999999;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.nav-head .item a:visited,
+.nav-head .item a:hover,
+.nav-head .item a:active,
+.nav-head .item a:link{
+    text-decoration: none;
+}
+.nav-head .item:first-child{
+    text-align: right;
+}
+.nav-head .item:last-child{
+    text-align: left;
+}
+.nav-head .item a{
+    display: inline-block;
+    min-width: 7rem;
+
+    text-align: center;
+}
+.nav-head .item.active a{
+
+  border-bottom: 1px solid #ee8864;
+    color: #ee8864;
+}
+.post-group{
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.post-group:first-child{
+    margin-top: 0;
+}
+.post-group .box {
+    padding-left: 1.5rem;
+}
+.post-group .post-head .usr-head{
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+.post-group  .auth.username,.post-group .auth .month{
+  display: block;
+
+}
+.padding05rem{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.post-group .auth .username{
+    font-size: 1.2rem;
+    color: #5e5e5e;
+}
+.post-group .auth .month{
+    font-size: 1rem;
+    color: #999999;
+}
+.post-group  .auth{
+    border-bottom: 1px solid #999999;
+}
+.paddin-right-0{
+    padding-right: 0px;
+}
+.post-group .post-content{
+    padding-left: 1.5rem;
+    padding-right:  1.5rem;
+    padding-bottom: 1rem;
+}
+.post-group .post-content .text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    text-indent: 2rem;
+}
+.post-group .post-foot{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top: 1px solid #999999;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.post-group .post-foot span{
+    font-size: 1.5rem;
+}
+.boot{
+    margin-bottom: 5rem;
+}
+.top-nav{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}
+.top-nav .panding0:first-child{
+    text-align: left;
+}
+.top-nav .panding0:last-child{
+    text-align: right;
+}
+.top-nav .panding0 span{
+    line-height: 2.5rem;
+}
+.top-nav .panding0 .text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.top-nav .panding0 a{
+    color: #5e5e5e;
+}
+.top-nav .panding0 a.success{
+    color: #2e6da4;
+}
+.camera{
+    background: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.camera .camera-box{
+    border-radius: 50%;
+   margin: auto;
+    border:1px solid #999999;
+    width: 10rem;
+    height: 10rem;
+
+}
+.camera .camera-box .iconfont{
+    font-size: 4rem;
+    line-height: 10rem;
+    color: #999999;
+}
+.camera .ps{
+    line-height: 5rem;
+    color: #999999;
+}
+.picture-content .title{
+    line-height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    font-size: 1.5rem ;
+    padding-left: 1rem;
+}
+.message .post-group{
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.message .post-group .auth{
+    border-bottom: none;
+}
+
+.nav-head.xx{
+    border-bottom: 1px solid #d4d4d4;
+}
+.message .post-group .auth .username{
+    font-size: 1.4rem;
+}
+.message .post-group .month{
+    font-size: 1.2rem;
+}
+.message .post-group .box{
+    padding-top: 0.5rem;
+}
+.message .post-group .date{
+    font-size: 1.2rem;
+    color: #999999;
+}
+.profile .nav-head .head{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+.profile .nav-head{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.profile .nav-head .head .userid{
+    position: absolute;
+    right: -5rem;
+    bottom:2rem;
+}
+.profile .nav-head .code{
+    position: relative;
+}
+.profile .nav-head .code .code-img{
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+
+}
+.profile .nav-head .code .code-img .iconfont{
+    font-size: 5rem;
+    color: #999999;
+}
+.profile .message .post-group{
+    border-top:none;
+    border-bottom: 1px solid #d4d4d4;
+}
+.profile .message .post-group .item .title{
+    line-height: 3rem;
+}

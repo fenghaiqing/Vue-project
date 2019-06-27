@@ -1,0 +1,167 @@
+
+body {
+ background-color:#E1E1E1 ;
+}
+
+
+a {
+  color: #00B7FF;
+}
+.navbar-default{
+  border-color:#444444 ;
+  border-radius: 0px;
+}
+.container-fluid{
+  background-color: #444444;
+}
+
+.form-control.search{
+  background-color: #888888;
+  border-color:#444444 ;
+  -webkit-transition: all .5s;
+  border-radius: 20px;
+  width: 200px;
+  padding-left: 30px;
+}
+.form-control.search:hover{
+  background-color: white;
+  -webkit-transition: all .5s;
+}
+.fa-search{
+  position: relative;
+  left: 28px;
+  top: 2px;
+}
+.navbar-brand >h1{
+  margin-top: -25px;
+  font-family: "Edwardian Script ITC";
+  font-size: 60px;
+  color: #80BD01;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #CCCCCC;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+}
+@media (min-width: 1200px){
+  .container {
+    width: 1200px;
+  }
+}
+.col-lg-3{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.panel{
+  border-color: white;
+}
+.panel-head{
+  margin-top: 20px;
+  border-top: 1px solid #E1E1E1;
+  border-radius: 0px;
+  padding: 10px 10px;
+}
+.scorllre_ul{
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.scorllre_ul li:hover{
+  background-color: #0f0f0f;
+}
+.scorllre{
+  margin-top: 5px;
+  width: 50px;
+  opacity: 0.5;
+  text-align: center;
+}
+.scorllre >a >i{
+ font-size: 20px;
+  color: #888888;
+}
+.item_active {
+  border-color:#888888 ;
+  background-color: #888888;
+}
+
+.new_list{
+  padding: 10px 10px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #80BD01;
+}
+.new_list i{
+  padding: 10px 10px;
+}
+.new_list:hover{
+  text-decoration: none;
+  cursor:pointer;
+}
+.badge{
+  background-color:#80BD01 ;
+}
+.list_i{
+  font-size: 30px;
+  color: #C1C1C1;
+}
+.list_i_text{
+  color: #C1C1C1;
+  font-size: 18px;
+  border-bottom: 1px solid #C1C1C1;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.list_panel{
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.list_controller{
+  width: 70%;
+  line-height: 50px;
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.list_btn{
+  padding-top: 5%;
+  padding-bottom: 15%;
+
+}
+.list_btn button.btn-default{
+  width: 200px;
+  background-color:#C1C1C1 ;
+}
+.list_btn button.btn-primary{
+  width: 200px;
+  background-color:#80BD01 ;
+  border: 1px solid #80BD01;
+}
+.list-group-item{
+  cursor: pointer;
+}
+.list_i_text select{
+  border: none;
+  padding: 10px 5px;
+  width: 200px;
+  text-align: center;
+}
+.list-group-date input{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-group-date label{
+  color: #888888;
+}
+.form-group span{
+  color: indianred;
+}
